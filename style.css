@@ -21,6 +21,20 @@ body{
     color: var(--escuro);
 }
 
+/*LOGO ANIMADA*/
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 12px; 
+}
+
+.logo-gif {
+    width: 48px;
+    height: 40px;
+    object-fit:contain
+}
+
 /* MENU */
 
 header{
